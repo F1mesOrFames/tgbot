@@ -12,11 +12,10 @@ import pyautogui
 import subprocess
 import sys
 from datetime import datetime
-from ID import ADMIN_ID
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-
+ADMIN_ID = 6190503055
 REPORT_INTERVAL = 300
 MAX_HISTORY = 20
 
